@@ -1,0 +1,13 @@
+name: CI
+on:
+  push:
+    branches: [main]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Say hello
+        run: echo "Build step running"
+      - name: Run a check
+        run: echo "Tests would run here"
