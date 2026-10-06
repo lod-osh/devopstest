@@ -11,5 +11,4 @@ jobs:
         run: echo "Build step running"
       - name: Run a check
         run: echo "Tests would run here"
-      - name: Force a failure
-        run: exit 1
+      
